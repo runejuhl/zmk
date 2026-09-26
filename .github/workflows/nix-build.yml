@@ -17,6 +17,7 @@ on:
       - "default.nix"
       - "app/**"
       - "nix/**"
+  workflow_dispatch:
 
 jobs:
   build:
